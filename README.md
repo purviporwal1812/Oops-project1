@@ -22,12 +22,11 @@ Oops-project1/
 │ └── Task.java
 │
 ├── myUser/
-│ ├── Autentication.java
-│ ├── Mian.java
+│ ├── Authentication.java
+│ ├── Main.java
 │ └── UserDetails.java
 │
 ├── README.md
-└── .gitignore
 
 **Features:**
 
