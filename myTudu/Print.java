@@ -2,11 +2,11 @@ package myTudu;
 
 public class Print implements InterfaceTodo {
     public void toPrint() {
-        if (Add.tasks.size() == 0) {
+        if (tasks.size() == 0) {
             System.out.println("No assignments remaining.");
         }
-        for (int i = 0; i < Add.tasks.size(); i++) {
-            Task task = Add.tasks.get(i);
+        for (int i = 0; i < tasks.size(); i++) {
+            Task task = tasks.get(i);
             System.out.println("Title: " + task.heading + "\nDesc : This is my " + (i + 1) + " Task." + "\nStatus: "
                     + task.status);
             System.out.println("\n");

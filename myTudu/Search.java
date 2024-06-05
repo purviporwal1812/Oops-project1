@@ -15,7 +15,7 @@ public class Search implements InterfaceTodo {
 
             // matching tasks array list
             ArrayList<Task> matchingTasks = new ArrayList<>();
-            for (Task task : Add.tasks) {
+            for (Task task : tasks) {
                 if (task.heading.contains(searchHeading)) {
                     matchingTasks.add(task);
                 }
@@ -40,7 +40,7 @@ public class Search implements InterfaceTodo {
             }
 
             ArrayList<Task> matchingTasks = new ArrayList<>();
-            for (Task task : Add.tasks) {
+            for (Task task : tasks) {
                 if (searchStatus.equalsIgnoreCase("i")) {
                     matchingTasks.add(task);
                 } else if (searchStatus.equalsIgnoreCase("c")) {
