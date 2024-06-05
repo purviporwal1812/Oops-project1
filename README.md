@@ -3,6 +3,7 @@
 An attendance and assignment tracker application, named "College_Space," is designed to assist college students in efficiently managing their academic tasks and monitoring their attendance. The application offers a user-friendly interface accessible via the terminal, allowing students to interact with the system seamlessly.
 
 **Directory Structure:**
+```bash
 Oops-project1/
 │
 ├── myAttendance/
