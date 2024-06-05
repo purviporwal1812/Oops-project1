@@ -27,7 +27,7 @@ Oops-project1/
 │ └── UserDetails.java
 │
 ├── README.md
-
+```
 **Features:**
 
 1. **User Authentication:** The application starts with user authentication. Users can log in or register to access the system, ensuring security and personalized access to their tasks and attendance records.
