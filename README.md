@@ -7,24 +7,24 @@ An attendance and assignment tracker application, named "College_Space," is desi
 Oops-project1/
 │
 ├── myAttendance/
-│   ├── UserAttendance.java
+│   └── UserAttendance.java
 │
 ├── myPassword/
-│   ├── PassGenerator.java
+│   └── PassGenerator.java
 │
 ├── myTudu/
 │   ├── Add.java
 │   ├── Delete.java
 │   ├── InterfaceTodo.java
-│   └── Options.java
-│   └── Print.java
-│   └── Search.java
+│   ├── Options.java
+│   ├── Print.java
+│   ├── Search.java
 │   └── Task.java
 │
 ├── myUser/
 │   ├── Autentication.java
 │   ├── Mian.java
-│   ├── UserDetails.java
+│   └── UserDetails.java
 │
 ├── README.md
 └── .gitignore
