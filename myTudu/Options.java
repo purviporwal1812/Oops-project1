@@ -23,34 +23,33 @@ public class Options implements InterfaceTodo {
             case 1:
                 Add add1 = new Add();
                 add1.toAdd();
-                printOptions();
-                selectOptions(choicex);
+
                 break;
             case 2:
                 Delete d1 = new Delete();
                 d1.toDelete();
-                printOptions();
-                selectOptions(choicex);
+
                 break;
             case 3:
                 Print p1 = new Print();
                 p1.toPrint();
-                printOptions();
-                selectOptions(choicex);
+
                 break;
             case 4:
                 Search s1 = new Search();
                 s1.toSearch();
-                printOptions();
-                selectOptions(choicex);
 
                 break;
 
             case 5:
+                System.exit(0);
                 break;
             default:
                 System.out.println("Enter Correct number.");
         }
+        printOptions();
+        selectOptions(choicex);
+
     }
 
     public void toAdd() {

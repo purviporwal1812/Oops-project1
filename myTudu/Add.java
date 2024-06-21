@@ -1,7 +1,5 @@
 package myTudu;
 
-import java.util.ArrayList;
-
 import java.util.Scanner;
 
 public class Add implements InterfaceTodo {

@@ -1,5 +1,7 @@
 package myTudu;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Delete implements InterfaceTodo {
@@ -14,6 +16,7 @@ public class Delete implements InterfaceTodo {
 
         for (int i = 0; i < tasks.size(); i++) {
             Task task = tasks.get(i);
+
             if (task.heading.equals(removed)) {
                 tasks.remove(i);
             }

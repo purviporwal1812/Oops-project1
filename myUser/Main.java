@@ -12,7 +12,10 @@ public class Main {
         System.out.println("Welcome to College_Space");
 
         Authentication a1 = new Authentication();
-        UserDetails u1 = new UserDetails("Purvi", "b", "a");
+        UserDetails u1 = new UserDetails();
+        u1.setName("Purvi");
+        u1.setEmail("abc");
+        u1.setPassword("oops");
         UserAttendance ua = new UserAttendance();
         PassGenerator pg = new PassGenerator();
         Scanner sc = new Scanner(System.in);
@@ -89,7 +92,10 @@ public class Main {
                     }
                     System.out.println("Password: " + passw);
 
-                    UserDetails newUser = new UserDetails(userName, userEmail, passw);
+                    UserDetails newUser = new UserDetails();
+                    newUser.setName(userName);
+                    newUser.setEmail(userEmail);
+                    newUser.setPassword(passw);
                     users.add(newUser);
                     System.out.println("Registration successful. Welcome, " + userName + "!");
 
